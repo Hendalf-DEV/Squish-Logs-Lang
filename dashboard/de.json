@@ -1,0 +1,262 @@
+{
+   "general":{
+      "loading":"Lädt...",
+      "search":"Suchen",
+      "filters":"Filter",
+      "clear-filters":"Filter zurücksetzen"
+   },
+   "auth":{
+      "logout":"Ausloggen"
+   },
+   "request":{
+      "info":"Es sieht so aus als hättest du keine Berechtigung um logs für {{community}} zu sehen. Du kannst hier Berechtigungen anfordern, welche von einem Admin bestätigt werden muss.",
+      "pending":"Deine Berechtigungsanfrage steht noch aus, du hast die Anfrage um {{time}} gesendet.",
+      "access":"Berechtigung anfragen"
+   },
+   "dashboard":{
+      "title":"Statistik",
+      "header":"Dashboard",
+      "sub-header":"Ein kurzer Einblack in das, was wir über deine Server wissen!",
+      "stats":{
+         "servers":"Server",
+         "players":"Spieler",
+         "connections":"Verbindungen",
+         "active-logs":"Aktive Logs",
+         "archived-logs":"Archivierte Logs"
+      },
+      "charts":{
+         "logs-by-day":"Logs pro Tag",
+         "connections-by-day":"Verbingungen pro Tag",
+         "average-connections-by-hour":"Durchschnittliche Verbindungen pro Stunde",
+         "new-players-by-day":"Neue Spieler pro Tag"
+      }
+   },
+   "errors":{
+      "title":"Fehler",
+      "index":{
+         "header":"Fehler einsehen",
+         "sub-header":"Durchsuche alle Fehler, welche wir von einem bestimmten Server erhalten haben.",
+         "filters":{
+            "resolved":"Gelöste einschließen",
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "error":"Fehler",
+            "realm":"Realm",
+            "occurrences":"Ereignisse",
+            "last":"Zuletzt"
+         },
+         "empty":"Es gibt derzeit keine Fehler mit diesen Filter..."
+      },
+      "profile":{
+         "header":"Fehler #{{id}}",
+         "sub-header":"Sieh dir mehr details von diesem Fehler an",
+         "copied":"Kopiert",
+         "share":"Teilen",
+         "resolved":"Gelöst",
+         "error":"Fehler",
+         "stack":"Stack",
+         "lead-up-logs":"Folgefehler",
+         "mark-resolved":"Als gelöst markieren",
+         "stats":{
+            "server":"Server",
+            "occurrences":"Ereignisse",
+            "date":"Datum"
+         },
+         "table":{
+            "category":"Kategorie",
+            "log":"Log",
+            "when":"Wann"
+         }
+      },
+      "shared":{
+         "header":"Geteilte Fehler",
+         "sub-header":"Dieser Fehler wurde mit dir geteilt"
+      }
+   },
+   "logs":{
+      "title":"Logs",
+      "live":{
+         "header":"Live Logs",
+         "sub-header":"Schau dir alle logs an, während sie Live reinkommen!",
+         "table":{
+            "server":"Server",
+            "category":"Kategorie",
+            "log":"Log"
+         },
+         "empty":"Es gibt derzeit keine Fehler mit diesen Filter..."
+      },
+      "browse":{
+         "header":"Logs durchsuchen",
+         "sub-header":"Durchesuche alle Logs von einem bestimmten Server, benutze filter um die Suchkriterien einzuschränken",
+         "filters":{
+            "archived":"Archiviert",
+            "server":"Server",
+            "category":"Kategorie",
+            "player":"Spieler"
+         },
+         "table":{
+            "server":"Server",
+            "category":"Kategorie",
+            "log":"Log",
+            "when":"Wann"
+         },
+         "empty":"Es gibt derzeit keine Fehler mit diesen Filter..."
+      },
+      "export":{
+         "header":"Logs Exportieren",
+         "sub-header":"Exportiere deine Logs in eine CSV-Datei für noch mehr flexibilität",
+         "create-export":"Export Erstellen",
+         "download":"Download",
+         "generating":"Erstelle...",
+         "filters":{
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "name":"Name",
+            "date-range":"Datum Zeitraum",
+            "type":"Art",
+            "created":"Erstellt"
+         },
+         "empty":"Es gibt derzeit keine Fehler mit diesen Filter..."
+      },
+      "export-create":{
+         "header":"Erstelle einen Log Export",
+         "game-server":"Spiele Server",
+         "name":"Name (Optional)",
+         "format":"Menschliches Format (Export in ein Menschlich-lesbares Format)",
+         "date-start":"Start Datum",
+         "date-end":"Bis Datum",
+         "create":"Erstellen"
+      }
+   },
+   "players":{
+      "index":{
+         "header":"Spieler",
+         "sub-header":"Durchsuche den Katalog von Spielern mit Logs dieser Community",
+         "last-seen":"Zuletzt gesehen {{time}}",
+         "filters":{
+            "server":"Server"
+         },
+         "empty":"Es gibt derzeit keine Fehler mit diesen Filter..."
+      },
+      "side-bar":{
+         "details":"Details",
+         "server":"Server",
+         "first-joined":"Das erste mal gejoined",
+         "steam-name":"Steam Name",
+         "steamid":"SteamID",
+         "steamid-64":"SteamID 64",
+         "minecraft-name":"Minecraft Name",
+         "minecraftid":"MinecraftID",
+         "statistics":"Statistiken",
+         "active-logs":"Aktive Logs",
+         "archived-logs":"Archivierte Logs",
+         "notes":"Notizen",
+         "steam-profile":"Steam Profil",
+         "namemc-profile":"NameMC Profil",
+         "filter-logs":"Filter Logs"
+      },
+      "meta":{
+         "platfrom-name":"Plattform Name",
+         "platfrom-id":"Plattform ID",
+         "health":"Leben",
+         "weapon":"Waffe",
+         "team":"Job"
+      }
+   },
+   "status":{
+      "title":"Status",
+      "index":{
+         "players":"Spieler",
+         "uptime":"Onlinezeit",
+         "90-days-ago":"vor 90 Tage",
+         "today":"Heute"
+      },
+      "manage":{
+         "header":"Status Konfigurieren",
+         "sub-header":"Konfiguriere was auf deiner öffentlichen Status Seite angezeigt wird.",
+         "view-status-page":"View Status Page",
+         "table":{
+            "server":"Server",
+            "show-players":"Spieler anzeigen",
+            "show-uptime":"Laufzeit anzeigen"
+         }
+      }
+   },
+   "users":{
+      "header":"User",
+      "sub-header":"Gib einem User Zugriff zu diesem Bereich.",
+      "access-requests":"Zugangsberechtigung Anfragen",
+      "manage-users":"User Verwalten",
+      "table":{
+         "user":"User",
+         "platform":"plattform",
+         "requested":"Angefordert",
+         "accept":"Annehmen",
+         "decline":"Ablehnen",
+         "manage-community":"Community verwalten",
+         "manage-users":"User verwalten",
+         "manage-errors":"Fehler verwalten",
+         "view-server":"{{server}} ansehen",
+         "joined":"Beigetreten",
+         "kick":"Rauswerfen"
+      }
+   },
+   "servers":{
+      "index":{
+         "header":"Server",
+         "sub-header":"Eine komplette Liste von all deinen registrierten Servern. Du hast {{slots}} von deinen Slots benutzt.",
+         "create-server":"Server erstellen",
+         "purchase-allotment-token":"Kontingentstoken kaufen"
+      },
+      "create":{
+         "header":"Erstellen",
+         "sub-header":"Füge deiner Community einen neuen Server hinzu",
+         "sub-header-edit":"Server bearbeiten",
+         "name":"Name",
+         "region":"Region",
+         "ip":"IP Addresse",
+         "game":"Spiel",
+         "color":"Farbe",
+         "discord-webhook":"Discord Webhook (Optional)",
+         "report-errors":"Fehler melden",
+         "save":"Speichern",
+         "create":"Erstellen"
+      },
+      "profile":{
+         "sub-header":"Dieser Server und was du damit machen kannst",
+         "edit":"Bearbeiten",
+         "download-integration":"Integration herunterladen",
+         "download-integration-info":"Lade die Integration für dieses addon herunter. Dadurch wird eine vorkonfigurierte ZIP-Datei bereitgestellt, die du dann direkt auf deinem Server installieren können. Bitte überprüfe die Dokumentation für das relevante Spiel auf zusätzliche Schritte, die erforderlich sind.",
+         "docs":"Dokumentation",
+         "download":"Download",
+         "error-logging":"Fehler Logging",
+         "error-logging-info":"Wir haben festgestellt, dass du die Fehlerprotokollierung aktiviert hast. Damit diese Funktion für Garry's Mod funktioniert, musst du Folgendes zur Datei 'server\/garrysmod\/cfg\/server.cfg' hinzufügen.",
+         "discord-integration":"Discord Integration",
+         "discord-integration-info":"Du kannst mit dem Senden von Logs an deine Discord-Server beginnen, indem du den Anweisungen der Dokumentation folgst. Nachdem du die erforderlichen Abhängigkeiten installiert hast, startest du deinen Server neu und dann solltest du Logs erhalten.."
+      }
+   },
+   "community":{
+      "title":"Administration",
+      "header":"Community",
+      "sub-header":"Bearbeite die Informationen über diese Community",
+      "name":"Name",
+      "custom-domain":"Eigene Domain (Optional)",
+      "custom-domain-info":"Jede Community kann seine eigene domain hinzufügen.",
+      "docs":"Dokumentation",
+      "clear":"Löschen",
+      "save":"Speichern"
+   },
+   "settings":{
+      "header":"User Einstellungen",
+      "sub-header":"Ändere deine Einstellungen hier Change your settings here!",
+      "name":"Name",
+      "dark-mode":"Dark Mode",
+      "language":"Sprache",
+      "logout":"Ausloggen",
+      "save":"Speichern"
+   }
+}

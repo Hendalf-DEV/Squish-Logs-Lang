@@ -130,6 +130,17 @@
          "date-start":"Start Date",
          "date-end":"End Date",
          "create":"Create"
+      },
+      "categories":{
+         "header":"Log Categories",
+         "sub-header":"Manage the settings for your Log Categories. Some changes may require a Game Server restart.",
+         "table":{
+            "server":"Server",
+            "category":"Log Category",
+            "date-range":"Date Range",
+            "disabled":"Disabled",
+            "discord":"Discord"
+         }
       }
    },
    "players":{
